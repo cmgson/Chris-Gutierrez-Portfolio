@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Chris-Gutierrez-Portfolio/static/css/main.7376aea7.chunk.css",
-    "main.js": "/Chris-Gutierrez-Portfolio/static/js/main.8aa754ae.chunk.js",
-    "main.js.map": "/Chris-Gutierrez-Portfolio/static/js/main.8aa754ae.chunk.js.map",
+    "main.js": "/Chris-Gutierrez-Portfolio/static/js/main.ba72ff67.chunk.js",
+    "main.js.map": "/Chris-Gutierrez-Portfolio/static/js/main.ba72ff67.chunk.js.map",
     "runtime~main.js": "/Chris-Gutierrez-Portfolio/static/js/runtime~main.a36e6841.js",
     "runtime~main.js.map": "/Chris-Gutierrez-Portfolio/static/js/runtime~main.a36e6841.js.map",
     "static/css/2.8423e60e.chunk.css": "/Chris-Gutierrez-Portfolio/static/css/2.8423e60e.chunk.css",
-    "static/js/2.9a940384.chunk.js": "/Chris-Gutierrez-Portfolio/static/js/2.9a940384.chunk.js",
-    "static/js/2.9a940384.chunk.js.map": "/Chris-Gutierrez-Portfolio/static/js/2.9a940384.chunk.js.map",
+    "static/js/2.7e9fbe02.chunk.js": "/Chris-Gutierrez-Portfolio/static/js/2.7e9fbe02.chunk.js",
+    "static/js/2.7e9fbe02.chunk.js.map": "/Chris-Gutierrez-Portfolio/static/js/2.7e9fbe02.chunk.js.map",
     "index.html": "/Chris-Gutierrez-Portfolio/index.html",
-    "precache-manifest.473204c61ff268ba51e2c16eb40bbfb1.js": "/Chris-Gutierrez-Portfolio/precache-manifest.473204c61ff268ba51e2c16eb40bbfb1.js",
+    "precache-manifest.5d1fad1b970fb43192effe478230f314.js": "/Chris-Gutierrez-Portfolio/precache-manifest.5d1fad1b970fb43192effe478230f314.js",
     "service-worker.js": "/Chris-Gutierrez-Portfolio/service-worker.js",
     "static/css/2.8423e60e.chunk.css.map": "/Chris-Gutierrez-Portfolio/static/css/2.8423e60e.chunk.css.map",
-    "static/css/main.7376aea7.chunk.css.map": "/Chris-Gutierrez-Portfolio/static/css/main.7376aea7.chunk.css.map"
+    "static/css/main.7376aea7.chunk.css.map": "/Chris-Gutierrez-Portfolio/static/css/main.7376aea7.chunk.css.map",
+    "static/media/about-5.jpg": "/Chris-Gutierrez-Portfolio/static/media/about-5.274bb8cc.jpg"
   }
 }
