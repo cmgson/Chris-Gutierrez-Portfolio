@@ -3,33 +3,39 @@ import React, { Component } from "react";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Javascript/Jquery',
+        title: 'Dynamic-Day-Planner',
+        href: 'https://github.com/cmgson/Day-Planner'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'MySql/NodeJs',
+        title: 'CLI for office Generator and Maintenance',
+        href: 'https://github.com/cmgson/employee_tracker'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Express and Storage',
+        title: 'Note Taker utilizing full CRUD operators, NodeJs, and Express',
+        href: 'https://github.com/cmgson/Note-Taker'
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'NodeJs',
+        title: 'CLI utilizing node and inquirer to build a team webpage',
+        href: 'https://github.com/cmgson/Team-Generator'
     },
     {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-5',
+        category: 'Cli Inquirer NodeJs',
+        title: 'Readme Generator',
+        href: 'https://github.com/cmgson/Readme_Generator'
     },
     {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-6',
+        category: 'Html & CSS',
+        title: 'Dynamically Created Password Generator',
+        href: 'https://cmgson.github.io/password_generator/'
     }
 ]
 
@@ -49,9 +55,9 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4><a href={value.href}>{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a className="rn-btn" href={value.href}>View Details</a>
                                     </div>
                                 </div>
                             </div>

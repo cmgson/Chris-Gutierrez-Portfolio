@@ -12,11 +12,11 @@ import Helmet from "../component/common/Helmet";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Full Stack Web Developer',
+        category: 'Web Developer',
         title: 'Hello, I’m <span>Christopher</span> Welcome to my World.',
         description: '',
-        buttonText: '',
-        buttonLink: ''
+        buttonText: 'Check out the Resume',
+        buttonLink: 'https://docs.google.com/document/d/1eiuIhuoUqbPqIXTpeO6Y4wE4cO8qaeoFDIEsuE4Q0NU/edit?usp=sharing'
     }
 ]
 class PersonalPortfolio extends Component{
@@ -39,7 +39,7 @@ class PersonalPortfolio extends Component{
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            {value.title ? <h1 className="title" dangerouslySetInnerHTML={{__html: value.title}}></h1> : ''}
+                                            {value.title ? <h1 style={{ color:`white` }} className="title" dangerouslySetInnerHTML={{__html: value.title}}></h1> : ''}
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
@@ -86,7 +86,7 @@ class PersonalPortfolio extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
                                     <h2 className="title">My Portfolio</h2>
-                                    <p>Here are a few of the projects I have featured on Github</p>
+                                    <p>A few projects I have been working on</p>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +106,8 @@ class PersonalPortfolio extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <h2 className="title">A few other projects on github</h2>
+                                        <p>Here are some links to my repositories</p>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ class PersonalPortfolio extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
+                                        <a className="rn-button-style--2 btn-solid" href="https://github.com/cmgson"><span>View More</span></a>
                                     </div>
                                 </div>
                             </div>
