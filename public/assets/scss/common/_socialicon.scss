@@ -2,6 +2,7 @@
 
 ul {
     &.social-share {
+        color: white;
         padding: 0;
         margin: 0;
         margin: -6px;
@@ -62,7 +63,7 @@ ul {
                     height: auto;
                     text-align: left;
                     line-height: inherit;
-                    font-size: 16px;
+                    font-size: 40px;
                 }
                 &:hover{
                     a {
@@ -86,7 +87,8 @@ ul {
             &.color-black{
                 li {
                     a {
-                        color: #1d1d24;
+                        color: white;
+                        size: 10px;
                         opacity: 0.8;
                         &:hover {
                             color: $theme-color;

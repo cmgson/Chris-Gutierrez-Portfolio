@@ -64,19 +64,25 @@
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            background-image: url(/assets/images/portfolio/dayplanner.png);
         }
 
         &.image-2{
-            background-image: url(/assets/images/portfolio/portfolio-2.jpg);
+            background-image: url(/assets/images/portfolio/header.png);
         }
 
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-3.jpg);
+            background-image: url(/assets/images/portfolio/notetaker.gif);
         }
 
         &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-4.jpg);
+            background-image: url(/assets/images/portfolio/teamgenerator.png);
+        }
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/readmegenerator.png);
+        }
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/pwgenerator.png);
         }
 
         &::after{
